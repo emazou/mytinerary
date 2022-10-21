@@ -1,0 +1,22 @@
+.CityButton {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 10rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #0A5CFF;
+    color: white;
+    padding: .8rem 1rem;
+    border-radius: .5rem;
+    border: none;
+}
+.CityButton:hover {
+    background-color: #2977ff;
+}
+
+.CityButton img {
+    width: 1.2rem;
+    height: 1.2rem;
+}

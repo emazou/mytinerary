@@ -1,0 +1,97 @@
+.Profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  width: 100%;
+  background-color: #ebf1ff;
+  padding: 2rem;
+}
+.Profile-container-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 1.2rem 1rem;
+  border-radius: 0.5rem;
+  gap: 2rem;
+}
+.Profile-container-info img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.Profile-container-info h4 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #3f3d56;
+}
+.Profile-container-info h4 > img {
+  width: 1.3rem;
+  height: 1.3rem;
+  object-fit: contain;
+  border-radius: 0;
+}
+.buttons-container {
+  display: flex;
+
+  gap: 2rem;
+}
+.buttons-container button {
+  width: 7rem;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: #3982ff;
+  color: aliceblue;
+}
+.buttons-container button:hover {
+  background-color: #5c98ff;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ebf1ff;
+  width: 90%;
+  padding: 1.5rem 0;
+    border-radius: .5rem;
+}
+.buttons-form {
+  display: flex;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+.cancel-btn {
+  background-color: rgb(255, 92, 92);
+}
+.cancel-btn:hover {
+  background-color: rgb(255, 66, 66);
+}
+
+.edit-btn {
+  background-color: #5c98ff;
+}
+.edit-btn:hover {
+  background-color: #3982ff;
+}
+@media screen and (min-width: 500px) {
+  .Profile-container-info {
+    width: 80%;
+    height: 60vh;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 500px) {
+    .form-container{
+      width: 35rem;
+    }
+  }

@@ -1,0 +1,12 @@
+.itinerary-delete-btn {
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.itinerary-delete-btn img {
+    width: 1.8rem;
+    height: 1.8rem;
+}

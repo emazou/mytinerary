@@ -1,0 +1,44 @@
+.Hero-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 85vh;
+    background-image: url("https://i.ibb.co/dDTtRKP/6345959.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-color: #D6E4FF;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 5rem;
+}
+
+.Hero-container h1 {
+    font-size: 3rem;
+    color: #3F3D56;
+}
+
+.Hero-container p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #3F3D56;
+    font-weight: 600;
+}
+@media screen and (min-width: 425px){
+    .Hero-container {
+        gap: 2rem;
+    }
+}
+@media screen and (min-width: 768px){
+    .Hero-container p{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (min-width: 1440px){
+    .Hero-container{
+        justify-content: flex-start;
+        padding-top: 4rem;
+    }
+}
+

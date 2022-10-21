@@ -1,0 +1,98 @@
+.Comment-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 6rem;
+  background-color: aliceblue;
+  padding: 1rem;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 20px 24px 23px -26px rgba(219, 219, 219, 1);
+  -moz-box-shadow: 20px 24px 23px -26px rgba(219, 219, 219, 1);
+  box-shadow: 20px 24px 23px -26px rgba(219, 219, 219, 1);
+}
+.Comment-container img {
+  width: 2.8rem;
+  height: 2.8rem;
+  object-fit: cover;
+  border-radius: 50%;
+  align-self: flex-start;
+}
+.Comment-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  width: 100%;
+  word-break: break-all;
+}
+.Comment-information>.Comment-information-user{
+    font-weight: 600;
+}
+.Comment-buttons-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-self: flex-start;
+}
+.Modal-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 15rem;
+  padding: 1rem;
+  background-color: #EBF1FF;
+  border-radius: .5rem;
+  gap: 1rem;
+}
+
+.Modal-form textarea{
+  width: 90%;
+  font-size: 1rem;
+  padding: .5rem;
+  border: none;
+  border-radius: .5rem;
+  border: 1px solid #5C98FF;
+  outline: none;
+}
+.modal-btns-container{
+  display: flex;
+  gap: 3rem;
+}
+
+.cancel-btn, .edit-btn {
+  width: 5rem;
+  border: none;
+  padding: .5rem;
+  border-radius: .3rem;
+  color: aliceblue;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background-color: rgb(255, 92, 92);
+}
+
+.cancel-btn:hover {
+  background-color: rgb(255, 66, 66);
+}
+
+.edit-btn {
+  background-color: #5C98FF;
+}
+.edit-btn:hover {
+  background-color: #3982ff;
+}
+@media only screen and (min-width:600px){
+  .Comment-buttons-container{
+    flex-direction: row;
+  }
+  .Modal-form{
+    width: 35rem;
+  }
+}
+

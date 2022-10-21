@@ -1,0 +1,29 @@
+.Itinerary-interactions-likes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+.Itinerary-like-btn {
+  width: 1.7rem;
+  height: 1.7rem;
+  cursor: pointer;
+  background-image: url("/public/heart.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: none;
+  background-color: #ebf1ff;
+}
+
+.Itinerary-dislike-btn {
+  width: 1.7rem;
+  height: 1.7rem;
+  cursor: pointer;
+  background-image: url("/public/love.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: none;
+  background-color: #ebf1ff;
+}

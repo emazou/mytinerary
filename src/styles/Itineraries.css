@@ -1,0 +1,17 @@
+.Itineraries-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    width: 100%;
+    border-radius: .5rem;
+    padding: 1.2rem;
+    gap: 1.2rem;
+}
+@media screen and (min-width: 1024px) {
+    
+    .Itineraries-container {
+        width: 80%;
+    }
+}

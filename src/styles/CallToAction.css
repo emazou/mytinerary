@@ -1,0 +1,19 @@
+.CallToAction-a {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 14rem;
+    border-radius: .5rem;
+    border: none;
+    color: #f0f8ff;
+    padding: 1rem 1.2rem;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    background-color: #0A5CFF;
+  }
+  
+  .CallToAction-a:hover {
+    background-color: #1e6ffb;
+  }
+

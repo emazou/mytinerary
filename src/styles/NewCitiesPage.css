@@ -1,0 +1,87 @@
+.NewCitiesPage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    width: 100%;
+    background-color: #EBF1FF;
+    padding: 2rem;
+}
+
+.NewCitiesPage-container-form {
+    background-color: aliceblue;
+    padding: 1.2rem 1rem;
+    border-radius: .5rem;
+}
+
+.NewCitiesPage-container-form img {
+    display: none;
+}
+
+.NewCitiesPage-form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: .8rem;
+}
+
+.NewCitiesPage-form h3 {
+    color: #3F3D56;
+    text-align: center;
+    font-size: 1.5rem;
+}
+ 
+.NewCitiesPage-fieldset {
+    padding: .5rem .5rem;
+    border: none;
+}
+
+.NewCitiesPage-fieldset legend {
+    font-size: 1.2rem;
+    color: #3F3D56;
+    font-weight: 400;
+}
+
+.NewCitiesPage-btn {
+    width: 8rem;
+    padding: .5rem .5rem;
+    border-radius: .6rem;
+    border: none;
+    background-color: #5C98FF;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 1rem;
+}
+.NewCitiesPage-btn:hover{
+    background-color: #4f8cf7;
+}
+@media screen and (min-width: 600px) {
+
+    .NewCitiesPage-container-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        min-height: 65vh;
+    }
+
+    .NewCitiesPage-form input {
+        width: 22rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .NewCitiesPage-container-form {
+        padding: 1.2rem;
+        justify-content: space-evenly;
+    }
+
+    .NewCitiesPage-container-form img{
+        display: inline;
+        width: 45%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: .5rem;
+    }
+}

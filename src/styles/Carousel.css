@@ -1,0 +1,69 @@
+.Carousel-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 0.5rem;
+    padding: 0 0.5rem;
+}
+
+.Carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    background-color: #EBF1FF;
+    padding: 1rem;
+}
+
+.Carousel-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: #3F3D56;
+    font-size: 2rem;
+}
+
+.Carousel-city {
+    width: 30vw;
+    border-radius: .5rem;
+}
+
+.Carousel-city h3 {
+    font-size: 0.9rem;
+    padding: .5rem;
+    text-align: center;
+    height: 2.5rem;
+    color: #3F3D56;
+}
+
+.Carousel-city img {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+.Carousel-router {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 600px){
+    .Carousel-city h3{
+        font-size: 1.3rem;
+    }
+    .Carousel-city{
+        width: 40vw;
+    }
+}
+@media screen and (min-width: 1024px) {
+
+    .Carousel-city img {
+        height: 35vh;
+    }
+}

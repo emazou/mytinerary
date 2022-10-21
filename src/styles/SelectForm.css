@@ -1,0 +1,27 @@
+.SelectForm-select {
+    background-color: #5C98FF;
+    width: 18rem;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: .6rem;
+    border-radius: .3rem;
+    border: none;
+}
+
+.SelectForm-select option {
+    background-color: aliceblue;
+    color: #3F3D56;
+}
+.SelectForm-select::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  
+  .SelectForm-select::-webkit-scrollbar-track {
+    background: rgb(244, 242, 250);
+  }
+  
+  .SelectForm-select::-webkit-scrollbar-thumb {
+    background-color: #0A5CFF;
+    border-radius: 1.2rem;
+  }
+  

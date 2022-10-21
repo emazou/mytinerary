@@ -1,0 +1,45 @@
+.EditCity-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    width: 100%;
+    background-color: #EBF1FF;
+    padding: 2rem;
+}
+
+.EditCity-form-container {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 1.2rem 1rem;
+    border-radius: .5rem;
+    gap: 1rem;
+}
+
+.EditCity-form-container h3 {
+    color: #3F3D56;
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.EditCity-cityInformation {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    word-break: break-all;
+    width: 100%;
+    padding: 0 .5rem;
+    width: 100%;
+    gap: 1rem;
+}
+
+.EditCity-cityInformation p {
+    color: #3F3D56;
+}
+
+@media screen and (min-width: 500px) {
+    .EditCity-form-container {
+        width: 80%;
+    }
+}

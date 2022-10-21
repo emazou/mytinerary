@@ -1,0 +1,41 @@
+.EditItinerary-container {
+    width: 90%;
+    background-color: #EBF1FF;
+    padding: 1.5rem 0;
+    border-radius: .5rem;
+}
+
+.btns-container {
+    display: flex;
+    gap: 3rem;
+}
+
+.cancel-btn {
+    background-color: rgb(255, 92, 92);
+}
+.cancel-btn:hover {
+    background-color: rgb(255, 66, 66);
+}
+
+.edit-btn {
+    background-color: #5C98FF;
+}
+.edit-btn:hover {
+    background-color: #3982ff;
+}
+
+.cancel-btn, .edit-btn {
+    width: 5rem;
+    border: none;
+    padding: .5rem;
+    border-radius: .3rem;
+    color: aliceblue;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+    .EditItinerary-container{
+        width: 35rem;
+    }
+}

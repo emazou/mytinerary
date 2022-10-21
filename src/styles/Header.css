@@ -1,0 +1,155 @@
+.Header-container{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5C98FF;
+    padding: 0 2rem;
+}
+.Header-nav-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+}
+.Header-nav-container img{
+    width: 4.8rem;
+}
+.nav-btn{
+    padding: .5px;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+}
+.Header-user{
+    width: 2.3rem;
+    height: 2.3rem;
+    background-image: url('/public/user.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: #5C98FF;
+    cursor: pointer;
+}
+.Header-user img{
+    width: 2.3rem;
+    height: 2.3rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.Header-container-sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 6rem;
+    height: 8rem;
+    background-color: #298DFF;
+    position: absolute;
+    right: 2rem;
+    border-radius: .4rem;
+    gap: .5rem;
+    padding: .5rem;
+    z-index: 1;
+}
+.Header-container-sign a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: .3rem;
+}
+.Header-container-sign a:hover {
+    background-color: #1983fc;
+    border-radius: .3rem;
+}
+.Header-container-sign p{
+    font-size: 1.3rem;
+    padding: 0 .3rem;
+    color: aliceblue;
+    font-weight: 600;
+}
+.Header-container-sign .signout{
+    border-top: 1px solid aliceblue;
+}
+
+.Header-link{
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    color: aliceblue;
+    padding: .5rem .8rem;
+    border-radius: .3rem;
+}
+.Header-link:hover{
+    background-color: #0a5cff81;
+}
+.active {
+    background-color: #3173f881;
+}
+
+@media only screen and (max-width: 885px){
+    .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+    .nav-menu-btn{
+        width: 2rem;
+        height: 1.8rem;
+        background-image: url('/public/menu.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        border: none;
+    }
+    .Header-nav-container nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-height: 50vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 1rem 0;
+        gap: 1.5rem;
+        border-radius: 1rem;
+        background-color: #5c98fff3;
+        transition: 1s;
+        transform: translateY(-100vh);
+        z-index: 1;
+    }
+
+    .Header-nav-container .responsive-nav{
+        transform: none;
+    }
+    .Header-nav-container .nav-close-btn{
+        position: absolute;
+        top: 4vh;
+        left: 2rem;
+        font-size: 2rem;
+        font-weight: 500;
+        border: none;
+        color: #f0f8ff;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .Header-container-sign {
+        width: 10rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    
+    .Header-container-sign {
+        width: 15rem;
+    }
+}

@@ -1,0 +1,12 @@
+.itinerary-edit-button {
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.itinerary-edit-button img {
+    width: 1.6rem;
+    height: 1.6rem;
+}

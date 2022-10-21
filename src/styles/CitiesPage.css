@@ -1,0 +1,18 @@
+.CitiesPage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    background-color: #EBF1FF;
+    min-height: 70vh;
+    width: 100%;
+}
+
+.CitiesPage-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 0;
+}
